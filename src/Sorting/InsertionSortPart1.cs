@@ -2,6 +2,8 @@
 
 internal class Exercise1
 {
+    // You could check the full problem at www.hackerrank.com/challenges/insertionsort1/problem
+
     private static void PrintArray(List<int> array)
     {
         for (int j = 0; j < array.Count; j++)
