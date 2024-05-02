@@ -1,9 +1,10 @@
 # Sorting
 
-## Part 1
+### Exercises
 
-Check the [Algorithm](./InsertionSortPart1.cs).
+## Insertion Sort Part 1 Exercise
 
-Algorithm explanation:
+1. [Algorithm](./InsertionSortPart1.cs)
+2. Explanation:
 
-![Algorithm Explanation](./images/insertion-sort-part-1-algorithm-explanation.png)
+    ![Algorithm Explanation](./images/insertion-sort-part-1-algorithm-explanation.png)

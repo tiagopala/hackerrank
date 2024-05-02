@@ -1,5 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-
+﻿using HackerRank.Arrays;
 using HackerRank.Sorting;
 
-Exercise1.Execute();
+Console.WriteLine("HackerRank Exercises");
+
+#region Sorting Exercises
+
+InsertionSortPart1.Execute();
+
+#endregion
+
+#region Arrays Exercises 
+
+ReverseArrayProblem.Execute();
+
+Array2D.Execute();
+
+#endregion

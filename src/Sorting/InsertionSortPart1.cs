@@ -1,6 +1,6 @@
 ﻿namespace HackerRank.Sorting;
 
-internal class Exercise1
+internal class InsertionSortPart1
 {
     // You could check the full problem at www.hackerrank.com/challenges/insertionsort1/problem
 
@@ -55,10 +55,12 @@ internal class Exercise1
 
     public static void Execute()
     {
+        Console.WriteLine("\nInserting Sort Part 1 Exercise");
+
         int n = 5;
 
         List<int> arr = new() { 2, 4, 6, 8, 3 };
 
-        Exercise1.InsertionSort(n, arr);
+        InsertionSortPart1.InsertionSort(n, arr);
     }
 }
