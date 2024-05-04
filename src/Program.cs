@@ -15,4 +15,6 @@ ReverseArrayProblem.Execute();
 
 Array2D.Execute();
 
+LeftRotation.Execute();
+
 #endregion
