@@ -17,4 +17,6 @@ Array2D.Execute();
 
 LeftRotation.Execute();
 
+DynamicArray.Execute();
+
 #endregion
