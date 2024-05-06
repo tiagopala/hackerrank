@@ -19,4 +19,6 @@ LeftRotation.Execute();
 
 DynamicArray.Execute();
 
+SparseArrays.Execute();
+
 #endregion
