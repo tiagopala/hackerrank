@@ -44,7 +44,7 @@ internal class Array2D
 
     public static void Execute()
     {
-        Console.WriteLine("\n\nArray 2D Exercise");
+        Console.WriteLine("\n\n-> Array 2D Exercise");
 
         List<List<int>> list2D = new() 
         {

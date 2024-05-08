@@ -39,7 +39,7 @@ internal class DynamicArray
 
     public static void Execute()
     {
-        Console.WriteLine("\n\nDynamic Array Exercise");
+        Console.WriteLine("\n-> Dynamic Array Exercise");
 
         int n = 2;
 
@@ -55,11 +55,13 @@ internal class DynamicArray
 
         List<int> result = QueryDynamicArray(n, list);
 
-        Console.WriteLine("Result: ");
+        Console.Write("Result: ");
 
         foreach (var item in result)
         {
-            Console.WriteLine(item);
+            Console.Write($"{item} ");
         }
+
+        Console.WriteLine();
     }
 }

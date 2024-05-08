@@ -28,12 +28,14 @@ internal class LeftRotation
 
     public static void Execute()
     {
-        Console.WriteLine("\n\nLeft Rotation Exercise");
+        Console.WriteLine("\n-> Left Rotation Exercise");
 
         int d = 60581;
 
         List<int> arr = GiantArray.TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 
         List<int> result = RotateLeft(d, arr);
+
+        Console.WriteLine("Done!");
     }
 }

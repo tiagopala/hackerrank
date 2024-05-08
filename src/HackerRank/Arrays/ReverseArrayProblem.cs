@@ -21,7 +21,7 @@ internal class ReverseArrayProblem
 
     public static void Execute()
     {
-        Console.WriteLine("\nReverse Array Exercise");
+        Console.WriteLine("\n-> Reverse Array Exercise");
 
         List<int> list = new(){ 1, 4, 3, 2 };
 
