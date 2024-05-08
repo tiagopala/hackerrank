@@ -1,6 +1,6 @@
 ﻿namespace CodeChef.TwoPointers;
 
-internal class DifferencePairsExercise
+internal class DifferencePairs
 {
     // You could check the full problem at www.codechef.com/practice/course/two-pointers/POINTERF/problems/PREP68?tab=statement
 

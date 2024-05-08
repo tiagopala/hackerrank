@@ -2,7 +2,7 @@
 
 internal class TheGreatRun
 {
-    // You could check the full problem at www.codechef.com/practice/course/two-pointers/POINTERF/problems/PROC18A?tab=solution
+    // You could check the full problem at www.codechef.com/practice/course/two-pointers/POINTERF/problems/PROC18A?tab=statement
 
     private static int GetMaxUsingTwoPoints(int maxDistance, List<int> list)
     {
