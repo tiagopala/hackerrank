@@ -1,6 +1,6 @@
-# HackerRank Exercises
+# Algorithm & Data Structures Exercises
 
-Project created to group up some HackerRank exercises.
+Project created to group up some exercises about algorithms and data structures.
 
 I'll divide the exercise into the following categories:
 
