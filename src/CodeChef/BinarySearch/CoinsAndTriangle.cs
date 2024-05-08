@@ -4,6 +4,7 @@ internal class CoinsAndTriangle
 {
     // You could check the full problem at www.codechef.com/practice/course/binary-search/INTBINS01/problems/TRICOIN?tab=statement
 
+    // Time Complexity: O(squr N) where N is the number of coins.
     private static int GetMaximumHeightFormula(int numberOfCoins)
     {
         int height = 1;

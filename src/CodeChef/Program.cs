@@ -5,3 +5,5 @@ using CodeChef.TwoPointers;
 TheGreatRun.Execute();
 
 CoinsAndTriangle.Execute();
+
+TheWave.Execute();
