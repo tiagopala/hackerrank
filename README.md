@@ -4,5 +4,11 @@ Project created to group up some HackerRank exercises.
 
 I'll divide the exercise into the following categories:
 
-- [Sorting](./src/Sorting/README.md)
-- [Arrays](./src/Arrays/README.md)
+## Algorithms
+
+- [Sorting](/docs/algorithms/sorting/README.md)
+- [Two-Pointers](/docs/algorithms/two-pointers/README.md)
+
+## Data Structures
+
+- [Arrays](/docs/data-structures/arrays/README.md)
