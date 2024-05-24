@@ -1,54 +1,54 @@
-﻿namespace HackerRank.Sorting;
+﻿namespace Exercises.Sorting;
 
-internal class InsertionSortPart1
+internal class InsertionSort
 {
     // You could check the full problem at www.hackerrank.com/challenges/insertionsort1/problem
 
-    private static void PrintArray(List<int> array)
+    private static void PrintArray(List<int> list)
     {
-        for (int j = 0; j < array.Count; j++)
+        for (int j = 0; j < list.Count; j++)
         {
-            Console.Write($"{array[j]} ");
+            Console.Write($"{list[j]} ");
         }
 
         Console.Write("\n");
     }
 
-    private static void InsertionSort(int n, List<int> arr)
+    private static void Sort(int n, List<int> list)
     {
         int lastValue = 0;
 
         for (int i = n - 1; i >= 0; i--)
         {
-            int initialValue = arr[i];
+            int initialValue = list[i];
 
             if (i == 0)
             {
-                arr[i] = lastValue;
+                list[i] = lastValue;
             }
             else
             {
-                int previous = arr[i - 1];
+                int previous = list[i - 1];
 
                 if (previous < lastValue)
                 {
-                    arr[i] = lastValue;
-                    lastValue = arr[i - 1];
+                    list[i] = lastValue;
+                    lastValue = list[i - 1];
                 }
                 else
                 {
                     if (lastValue == 0)
                     {
-                        lastValue = arr[i];
+                        lastValue = list[i];
                     }
 
-                    arr[i] = arr[i - 1];
+                    list[i] = list[i - 1];
                 }
             }
 
-            if (initialValue != arr[i])
+            if (initialValue != list[i])
             {
-                PrintArray(arr);
+                PrintArray(list);
             }
         }
     }
@@ -59,8 +59,8 @@ internal class InsertionSortPart1
 
         int n = 5;
 
-        List<int> arr = new() { 2, 4, 6, 8, 3 };
+        List<int> list = [2, 4, 6, 8, 3];
 
-        InsertionSortPart1.InsertionSort(n, arr);
+        Sort(n, list);
     }
 }

@@ -2,7 +2,7 @@
 
 Arrays should be used for **reading data efficiently**.
 
-## Naming
+## Terminology/Naming
 
 - C# => Arrays
 

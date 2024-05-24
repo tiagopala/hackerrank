@@ -1,4 +1,4 @@
-﻿namespace CodeChef.TwoPointers;
+﻿namespace Exercises.TwoPointers;
 
 internal class DifferencePairs
 {

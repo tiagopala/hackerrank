@@ -1,12 +1,12 @@
-﻿namespace HackerRank.Arrays;
+﻿namespace Exercises.Arrays;
 
 internal class Array2D
 {
     // You could check the full problem at www.hackerrank.com/challenges/2d-array/problem
 
-    private static void PrintInput(List<List<int>> arr)
+    private static void PrintInput(List<List<int>> list)
     {
-        foreach (var array in arr)
+        foreach (var array in list)
         {
             foreach (var item in array)
                 Console.Write($"{item} ");
@@ -46,25 +46,25 @@ internal class Array2D
     {
         Console.WriteLine("\n\n-> Array 2D Exercise");
 
-        List<List<int>> list2D = new() 
-        {
-            new List<int> { 1, 1, 1, 0, 0, 0 },
-            new List<int> { 0, 1, 0, 0, 0, 0 },
-            new List<int> { 1, 1, 1, 0, 0, 0 },
-            new List<int> { 0, 0, 2, 4, 4, 0 },
-            new List<int> { 0, 0, 0, 2, 0, 0 },
-            new List<int> { 0, 0, 1, 2, 4, 0 }
-        };
+        List<List<int>> list2D =
+        [
+            [1, 1, 1, 0, 0, 0],
+            [0, 1, 0, 0, 0, 0],
+            [1, 1, 1, 0, 0, 0],
+            [0, 0, 2, 4, 4, 0],
+            [0, 0, 0, 2, 0, 0],
+            [0, 0, 1, 2, 4, 0],
+        ];
 
         /* negative 2D list to for tests:
         List<List<int>> negativeList2D = new()
         {
-            new List<int> { -1, -1,  0, -9, -2, -2},
-            new List<int> { -2, -1, -6, -8, -2, -5},
-            new List<int> { -1, -1, -1, -2, -3, -4},
-            new List<int> { -1, -9, -2, -4, -4, -5},
-            new List<int> { -7, -3, -3, -2, -9, -9},
-            new List<int> { -1, -3, -1, -2, -4, -5 },
+            [ -1, -1,  0, -9, -2, -2 ],
+            [ -2, -1, -6, -8, -2, -5 ],
+            [ -1, -1, -1, -2, -3, -4 ],
+            [ -1, -9, -2, -4, -4, -5 ],
+            [ -7, -3, -3, -2, -9, -9 ],
+            [ -1, -3, -1, -2, -4, -5 ],
         };
         */
 

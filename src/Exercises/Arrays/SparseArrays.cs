@@ -1,4 +1,4 @@
-﻿namespace HackerRank.Arrays;
+﻿namespace Exercises.Arrays;
 
 internal class SparseArrays
 {
@@ -14,7 +14,7 @@ internal class SparseArrays
 
             for (int j = 0; j < stringList.Count; j++)
             {
-                if (stringList[j] == (queries[i]))
+                if (stringList[j] == queries[i])
                     occurrences++;
             }
 
@@ -28,26 +28,26 @@ internal class SparseArrays
     {
         Console.WriteLine("\n-> Sparse Arrays Exercise");
 
-        List<string> stringList = new()
-        {
+        List<string> stringList =
+        [
             "aba",
             "baba",
             "aba",
             "xzxb"
-        };
+        ];
 
-        List<string> queries = new()
-        {
+        List<string> queries =
+        [
             "aba",
             "xzxb",
             "ab"
-        };
+        ];
 
         List<int> result = MatchingStrings(stringList, queries);
 
         Console.Write("Occurrences: ");
 
-        foreach(int i in result)
+        foreach (int i in result)
         {
             Console.Write($"{i} ");
         }

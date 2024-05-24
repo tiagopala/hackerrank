@@ -1,4 +1,4 @@
-﻿namespace CodeChef.TwoPointers;
+﻿namespace Exercises.TwoPointers;
 
 internal class TheGreatRun
 {
@@ -28,7 +28,7 @@ internal class TheGreatRun
     {
         int maxGirls = 0;
 
-        for (int i = 0; i <= (list.Count() - maxDistance); i++)
+        for (int i = 0; i <= list.Count() - maxDistance; i++)
         {
             int girls = 0;
 
