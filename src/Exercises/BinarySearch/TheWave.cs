@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace CodeChef.BinarySearch;
+namespace Exercises.BinarySearch;
 
 internal class TheWave
 {
@@ -10,11 +10,11 @@ internal class TheWave
 
     public TheWave()
     {
-        TheWaveGiantArray = Constants.TheWaveGiantArray
+        TheWaveGiantArray = @"1 2 3 4 5 6 7 8"
             .Split(' ')
             .Select(long.Parse);
 
-        TheWaveGiantQuery = Constants.TheWaveGiantQuery
+        TheWaveGiantQuery = "1 2 3 4 5 6 7 8"
             .Split(' ')
             .Select(long.Parse);
     }
@@ -42,7 +42,7 @@ internal class TheWave
                         Console.Write("POSITIVE ");
                     else
                         Console.Write("NEGATIVE ");
-                }   
+                }
                 else
                 {
                     if (index % 2 == 0)
@@ -71,7 +71,7 @@ internal class TheWave
                 int index = Array.BinarySearch(arr, query);
                 index = ~index;
 
-                Console.Write(isEven ? (index % 2 == 0 ? "POSITIVE " : "NEGATIVE ") : (index % 2 == 0 ? "NEGATIVE " : "POSITIVE "));
+                Console.Write(isEven ? index % 2 == 0 ? "POSITIVE " : "NEGATIVE " : index % 2 == 0 ? "NEGATIVE " : "POSITIVE ");
             }
         }
     }
@@ -80,7 +80,7 @@ internal class TheWave
     {
         list.Sort();
 
-        bool isEven = list.Count% 2 == 0;
+        bool isEven = list.Count % 2 == 0;
 
         foreach (long query in queries)
         {

@@ -1,4 +1,4 @@
-﻿namespace HackerRank.Arrays;
+﻿namespace Exercises.Arrays;
 
 internal class LeftRotation
 {

@@ -1,4 +1,4 @@
-﻿namespace HackerRank.Arrays;
+﻿namespace Exercises.Arrays;
 
 internal class ReverseArrayProblem
 {
@@ -17,16 +17,16 @@ internal class ReverseArrayProblem
     }
 
     private static void PrintList<T>(List<T> list)
-        => list.ForEach(x => Console.Write($"{x.ToString()} "));
+        => list.ForEach(x => Console.Write($"{x} "));
 
     public static void Execute()
     {
         Console.WriteLine("\n-> Reverse Array Exercise");
 
-        List<int> list = new(){ 1, 4, 3, 2 };
+        List<int> list = new() { 1, 4, 3, 2 };
 
         Console.Write("Initial List:  ");
-        
+
         PrintList(list);
 
         var reversedList = Reverse(list);

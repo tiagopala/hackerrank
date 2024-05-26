@@ -1,4 +1,4 @@
-﻿namespace CodeChef.BinarySearch;
+﻿namespace Exercises.BinarySearch;
 
 internal class CoinsAndTriangle
 {
@@ -9,7 +9,7 @@ internal class CoinsAndTriangle
     {
         int height = 1;
 
-        while ((height * (height + 1) / 2) <= numberOfCoins)
+        while (height * (height + 1) / 2 <= numberOfCoins)
         {
             height++;
         }
@@ -39,7 +39,7 @@ internal class CoinsAndTriangle
                 if (remainingCoins > previousRowCoins)
                 {
                     rows++;
-                    remainingCoins -= (previousRowCoins + 1);
+                    remainingCoins -= previousRowCoins + 1;
                     previousRowCoins += 1;
                 }
                 else
