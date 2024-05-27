@@ -56,6 +56,10 @@ static void BreadthFirstSearch(Node root)
 }
 ```
 
+Explanation:
+
+![bfs-explanation](/images/search-algorithms-breadth-first-search.png)
+
 ### Implementations
 
 - [On a Binary Search Tree](../binary-search-trees/README.md#breadth-first-search-bfs-implementation)
