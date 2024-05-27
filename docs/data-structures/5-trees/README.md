@@ -12,32 +12,15 @@ A binary search tree has one of the **most efficient search algorithms** because
 - `child`: The node below an ancestor.
 - `depth` (level): It's the distance of some node (number of edges) to the root.
 
-### Binary Search Trees (BST)
+## Types of Trees
 
-- A binary search tree (BST) is an efficient data structure where each node has at most two child nodes.
-- The left child of a node is smaller, and the right child is greater than the parent node.
+- [Binary Search Tress (BST)](./binary-search-trees/README.md)
+- Heap
+- Tries
+- N-ary (Generic) Tree
+- Red-Black Tree
+- B+ Tree
 
-### Height of a BST
+## Common Searching Algorithms for Trees
 
-The height of a BST is the **longest path from the root to a leaf node**.
-
-Consider a binary search tree (BST) shown in the image below:
-
-![binary-search-tree-example](/images/binary-search-tree-bst-example.png)
-
-We can calculate the height using a recursive function that traverses left and right subtrees.
-
-Now, let’s implement the function as shown below:
-
-```csharp
-public static int GetHeight(Node root){
-    if (root == null)
-        return -1;
-    
-    return 1 + int.Max(getHeight(root.left),getHeight(root.right));
-}
-```
-
-Explanation:
-
-![binary-search-tree-bst-height-explanation](/images/binary-search-tree-bst-concept.png)
+- [Level-Order Traversal (Breadth-first search)](./searching-algorithms/README.md#level-order-traversal-breadth-first-search)
